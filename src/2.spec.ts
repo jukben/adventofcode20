@@ -1,6 +1,6 @@
 import { checkPasswords, passwordChecker1, passwordChecker2 } from "./2";
 
-it(`Simple test`, () => {
+it(`Simple test 1/2`, () => {
   expect(
     checkPasswords(
       `1-3 a: abcde
@@ -2027,7 +2027,7 @@ it(`Solution 1/2`, () => {
   ).toBe(404);
 });
 
-it(`Simple test 2 `, () => {
+it(`Simple test 2/2 `, () => {
   expect(
     checkPasswords(
       `1-3 a: abcde
